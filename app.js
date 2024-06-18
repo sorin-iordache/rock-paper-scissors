@@ -8,7 +8,7 @@ function getComputerChoice(choices) {
 }
 
 function getHumanChoice() {
-  let choice = window.prompt("Rock, Paper, or Scissors?:");
+  let choice = window.prompt("Rock, Paper, or Scissors?");
 
   while (!choices.includes(choice)) {
     choice = window.prompt(
@@ -19,16 +19,12 @@ function getHumanChoice() {
   return choice;
 }
 
-console.log(getComputerChoice(choices));
-console.log(getHumanChoice());
-
 function playRound(humanChoice, computerChoice) {
   const humanSelection = humanChoice.toLowerCase();
   const computerSelection = computerChoice.toLowerCase();
 
   if (humanSelection === computerSelection) {
     console.log("It's a tie!");
-    return;
   } else if (
     (humanSelection === "rock" && computerSelection === "scissors") ||
     (humanSelection === "paper" && computerSelection === "rock") ||
@@ -45,5 +41,9 @@ function playRound(humanChoice, computerChoice) {
 const humanChoice = getHumanChoice();
 const computerChoice = getComputerChoice(choices);
 
+console.log(`The Computer chose ${computerChoice}`);
+console.log(`The Human chose ${humanChoice}`);
+
 playRound(humanChoice, computerChoice);
+
 console.log(`Human Score: ${humanScore}, Computer Score: ${computerScore}`);
