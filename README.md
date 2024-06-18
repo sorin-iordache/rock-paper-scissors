@@ -26,7 +26,7 @@ To play the game, simply run the `index.html` file in your browser console.
 
 This is a Project done as an assignment from the Odin Project - Foundations Course - Project: Landing Page.
 
-- [Project: Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#step-4-declare-the-players-score-variables)
+- [Project: Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
 ## Disclaimer
 
