@@ -4,7 +4,7 @@
 
 A simple console-based implementation of the classic game rock-paper-scissors, built using JavaScript.
 
-The game is to train my knowledge of Javascript. Even if there were times that I wasn't sure what to do, or how to use arrays or loops, it was a great exercise to consolidate my exercise and in the end resulted as a great progress and it was a fun little project.
+The game serves as a training ground for my JavaScript skills. Despite encountering moments of uncertainty with concepts like arrays and loops, it proved to be an excellent exercise that helped solidify my understanding. Ultimately, it resulted in significant progress and turned out to be a delightful little project.
 
 ## Instructions
 
