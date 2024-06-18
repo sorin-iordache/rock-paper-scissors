@@ -1,8 +1,32 @@
-let choice = ["Rock", "Paper", "Scissors"];
+const choices = ["Rock", "Paper", "Scissors"];
 
-function getComputerChoice(choice) {
-  let randomIndex = Math.floor(Math.random() * choice.length);
-  return choice[randomIndex];
+function getComputerChoice(choices) {
+  let randomIndex = Math.floor(Math.random() * choices.length);
+  return choices[randomIndex];
 }
 
-console.log(getComputerChoice(choice));
+console.log(getComputerChoice(choices));
+
+function getHumanChoice() {
+  while (true) {
+    let playerChoice = prompt(
+      "Please enter rock, paper or scissors"
+    ).toLowerCase();
+
+    if (
+      choices.includes(
+        playerChoice.charAt(0).toUpperCase() +
+          playerChoice.slice(1).toLowerCase()
+      )
+    ) {
+      return (
+        playerChoice.charAt(0).toUpperCase() +
+        playerChoice.slice(1).toLowerCase()
+      );
+    } else {
+      alert("Invalid choice. Please enter rock, paper, or scissors.");
+    }
+  }
+}
+
+console.log(getHumanChoice());
