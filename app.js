@@ -1,4 +1,6 @@
 const choices = ["Rock", "Paper", "Scissors"];
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice(choices) {
   let randomIndex = Math.floor(Math.random() * choices.length);
@@ -10,7 +12,7 @@ console.log(getComputerChoice(choices));
 function getHumanChoice() {
   while (true) {
     let playerChoice = prompt(
-      "Please enter rock, paper or scissors"
+      "Please enter rock, paper, or scissors"
     ).toLowerCase();
 
     if (
