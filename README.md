@@ -4,6 +4,8 @@
 
 A simple console-based implementation of the classic game rock-paper-scissors, built using JavaScript.
 
+The game is to train my knowledge of Javascript. Even if there were times that I wasn't sure what to do, or how to use arrays or loops, it was a great exercise to consolidate my exercise and in the end resulted as a great progress and it was a fun little project.
+
 ## Instructions
 
 To play the game, simply run the `index.html` file in your browser console.
@@ -23,6 +25,8 @@ To play the game, simply run the `index.html` file in your browser console.
 ## Contributions
 
 This is a Project done as an assignment from the Odin Project - Foundations Course - Project: Landing Page.
+
+- [Project: Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#step-4-declare-the-players-score-variables)
 
 ## Disclaimer
 
